@@ -13,7 +13,7 @@ import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) {
-        Usuario usuario = new Usuario("Bruce","Wayne","batmanwayne@gotham.city.com", "Batcaverna");
+        Usuario usuario = new Usuario("Bruce","Wayne","batmanwayne324345454545@gotham.city.com", "Batcaverna");
         UsuarioService usuarioService = new UsuarioService();
         usuarioService.inserirUsuario(usuario);
         usuarioService.listarUsuarios();
